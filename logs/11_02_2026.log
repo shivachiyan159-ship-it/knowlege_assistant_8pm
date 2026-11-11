@@ -1,0 +1,42 @@
+{"timestamp": "2026-11-02T15:13:11.014493Z", "level": "info", "event": "loading config"}
+{"path": "WindowsPath('C:/Users/Admin/OneDrive/Desktop/knowlege_assistant_8pm/backend/config/config.yaml')", "timestamp": "2026-11-02T15:13:11.017857Z", "level": "info", "event": "current config path"}
+{"timestamp": "2026-11-02T15:13:11.028848Z", "level": "info", "event": {"qdrant_db": {"collection_name": "knowledge_assistant"}, "embedding_model": {"provider": "huggingface", "model_name": "sentence-transformers/all-MiniLM-L6-v2"}, "retriever": {"top_k": 5}, "llm": {"groq": {"provider": "groq", "model_name": "openai/gpt-oss-20b", "temprature": 0.2, "max_output_tokens": 2000}, "google": {"provider": "google", "model_name": "gemini", "temprature": 0.2, "max_output_tokens": 2000}, "openai": {"provider": "openai", "model_name": "GPT-5.4 mini", "temprature": 0.2, "max_output_tokens": 2000}}}}
+{"model": "sentence-transformers/all-MiniLM-L6-v2", "timestamp": "2026-11-02T15:13:11.030364Z", "level": "info", "event": "loadedd embedding model name from config"}
+{"error": "Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.", "timestamp": "2026-11-02T15:13:11.038819Z", "level": "error", "event": "Error loading embeding model"}
+{"timestamp": "2026-11-02T15:13:11.043355Z", "level": "info", "event": "str method"}
+{"timestamp": "2026-11-02T15:13:11.056089Z", "level": "info", "event": "str method"}
+{"timestamp": "2026-11-02T15:16:42.736581Z", "level": "info", "event": "loading config"}
+{"path": "WindowsPath('C:/Users/Admin/OneDrive/Desktop/knowlege_assistant_8pm/backend/config/config.yaml')", "timestamp": "2026-11-02T15:16:42.738106Z", "level": "info", "event": "current config path"}
+{"timestamp": "2026-11-02T15:16:42.744702Z", "level": "info", "event": {"qdrant_db": {"collection_name": "knowledge_assistant"}, "embedding_model": {"provider": "huggingface", "model_name": "sentence-transformers/all-MiniLM-L6-v2"}, "retriever": {"top_k": 5}, "llm": {"groq": {"provider": "groq", "model_name": "openai/gpt-oss-20b", "temprature": 0.2, "max_output_tokens": 2000}, "google": {"provider": "google", "model_name": "gemini", "temprature": 0.2, "max_output_tokens": 2000}, "openai": {"provider": "openai", "model_name": "GPT-5.4 mini", "temprature": 0.2, "max_output_tokens": 2000}}}}
+{"model": "sentence-transformers/all-MiniLM-L6-v2", "timestamp": "2026-11-02T15:16:42.745716Z", "level": "info", "event": "loadedd embedding model name from config"}
+No device provided, using cpu
+HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+{"timestamp": "2026-11-02T15:21:50.188036Z", "level": "info", "event": "loading config"}
+{"path": "WindowsPath('C:/Users/Admin/OneDrive/Desktop/knowlege_assistant_8pm/backend/config/config.yaml')", "timestamp": "2026-11-02T15:21:50.189578Z", "level": "info", "event": "current config path"}
+{"timestamp": "2026-11-02T15:21:50.195209Z", "level": "info", "event": {"qdrant_db": {"collection_name": "knowledge_assistant"}, "embedding_model": {"provider": "huggingface", "model_name": "sentence-transformers/all-MiniLM-L6-v2"}, "retriever": {"top_k": 5}, "llm": {"groq": {"provider": "groq", "model_name": "openai/gpt-oss-20b", "temprature": 0.2, "max_output_tokens": 2000}, "google": {"provider": "google", "model_name": "gemini", "temprature": 0.2, "max_output_tokens": 2000}, "openai": {"provider": "openai", "model_name": "GPT-5.4 mini", "temprature": 0.2, "max_output_tokens": 2000}}}}
+{"timestamp": "2026-11-02T15:21:50.195831Z", "level": "info", "event": "loading llm groq and  model name is openai/gpt-oss-20b"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-11-02T15:22:42.892153Z", "level": "info", "event": "loading config"}
+{"path": "WindowsPath('C:/Users/Admin/OneDrive/Desktop/knowlege_assistant_8pm/backend/config/config.yaml')", "timestamp": "2026-11-02T15:22:42.893356Z", "level": "info", "event": "current config path"}
+{"timestamp": "2026-11-02T15:22:42.898489Z", "level": "info", "event": {"qdrant_db": {"collection_name": "knowledge_assistant"}, "embedding_model": {"provider": "huggingface", "model_name": "sentence-transformers/all-MiniLM-L6-v2"}, "retriever": {"top_k": 5}, "llm": {"groq": {"provider": "groq", "model_name": "openai/gpt-oss-20b", "temprature": 0.2, "max_output_tokens": 2000}, "google": {"provider": "google", "model_name": "gemini", "temprature": 0.2, "max_output_tokens": 2000}, "openai": {"provider": "openai", "model_name": "GPT-5.4 mini", "temprature": 0.2, "max_output_tokens": 2000}}}}
+{"timestamp": "2026-11-02T15:22:42.899413Z", "level": "info", "event": "loading llm groq and  model name is openai/gpt-oss-20b"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"timestamp": "2026-11-02T15:27:08.441903Z", "level": "info", "event": "loading config"}
+{"path": "WindowsPath('C:/Users/Admin/OneDrive/Desktop/knowlege_assistant_8pm/backend/config/config.yaml')", "timestamp": "2026-11-02T15:27:08.443629Z", "level": "info", "event": "current config path"}
+{"timestamp": "2026-11-02T15:27:08.457296Z", "level": "info", "event": {"qdrant_db": {"collection_name": "knowledge_assistant"}, "embedding_model": {"provider": "huggingface", "model_name": "sentence-transformers/all-MiniLM-L6-v2"}, "retriever": {"top_k": 5}, "llm": {"groq": {"provider": "groq", "model_name": "openai/gpt-oss-20b", "temprature": 0.2, "max_output_tokens": 2000}, "google": {"provider": "google", "model_name": "gemini", "temprature": 0.2, "max_output_tokens": 2000}, "openai": {"provider": "openai", "model_name": "GPT-5.4 mini", "temprature": 0.2, "max_output_tokens": 2000}}}}
+{"timestamp": "2026-11-02T15:27:08.459153Z", "level": "info", "event": "loading llm google and  model name is gemini"}
+Unexpected argument 'temprature' provided to ChatGoogleGenerativeAI. Did you mean: 'temperature'?
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini:generateContent "HTTP/1.1 404 Not Found"
+{"timestamp": "2026-11-02T15:28:59.392275Z", "level": "info", "event": "loading config"}
+{"path": "WindowsPath('C:/Users/Admin/OneDrive/Desktop/knowlege_assistant_8pm/backend/config/config.yaml')", "timestamp": "2026-11-02T15:28:59.393391Z", "level": "info", "event": "current config path"}
+{"timestamp": "2026-11-02T15:28:59.397470Z", "level": "info", "event": {"qdrant_db": {"collection_name": "knowledge_assistant"}, "embedding_model": {"provider": "huggingface", "model_name": "sentence-transformers/all-MiniLM-L6-v2"}, "retriever": {"top_k": 5}, "llm": {"groq": {"provider": "groq", "model_name": "openai/gpt-oss-20b", "temprature": 0.2, "max_output_tokens": 2000}, "google": {"provider": "google", "model_name": "gemini-2.5-flash", "temprature": 0.2, "max_output_tokens": 2000}, "openai": {"provider": "openai", "model_name": "GPT-5.4 mini", "temprature": 0.2, "max_output_tokens": 2000}}}}
+{"timestamp": "2026-11-02T15:28:59.397998Z", "level": "info", "event": "loading llm google and  model name is gemini-2.5-flash"}
+Unexpected argument 'temprature' provided to ChatGoogleGenerativeAI. Did you mean: 'temperature'?
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"

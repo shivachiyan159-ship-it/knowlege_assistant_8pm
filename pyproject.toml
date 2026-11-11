@@ -1,0 +1,22 @@
+[project]
+name = "knowlege-assistant-8pm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.162.4",
+    "langchain>=1.4.7",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.4.2",
+    "langchain-groq>=1.1.3",
+    "langchain-huggingface>=1.2.3",
+    "langchain-openai>=1.7.3",
+    "langchain-qdrant>=1.1.0",
+    "numpy>=2.5.4",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "sentence-transformers>=6.2.0",
+    "structlog>=26.1.0",
+    "uvicorn>=0.54.0",
+]
